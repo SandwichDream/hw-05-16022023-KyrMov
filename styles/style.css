@@ -35,25 +35,27 @@ header div.left h1 img{
     bottom: 30px;
     left: 50px;
 }
-header div.right{
+header ul.right{
     margin-top: 20px;
     font-family: 'Labrada', serif;
     font-size: 20px;
     float: right;
 }
-header div.right a{
+li{
+    display: inline;
+}
+header ul li:not(:last-of-type){
+    padding-right: 30px;
+    background-image: url("../images/Vector1.png");
+}
+header ul.right a{
     color: #FBFCFF;
     text-decoration: none;
+    background-color: #242527;
 }
-header div.right a:hover{
+header ul.right a:hover{
     color: #FBFCFF;
     text-decoration: underline;
-}
-header div.right img{
-    color: white;
-    width: 12.7px;
-    height: 6px;
-    margin: 2px 20px;
 }
 header button{
     color: #E4F5FF;
@@ -79,9 +81,14 @@ section div.left{
     margin-top: 280px;
     float: left;
 }
-section div.left h1 img{
-    width: 96.5;
-    height: 30px;
+section div.left div {
+    width: 714px;
+    background-image: url(../images/Vector1.png);
+    background-size: 46px;
+    padding-right: 236px;
+}
+section div.left div h1{
+    background-color: #242527;
 }
 section div.right{
     float: right;
@@ -96,6 +103,9 @@ nav a{
     color: #E4F5FF;
     text-decoration: none;
     margin: 0 20px;
+}
+nav ul li:not(:first-of-type)::before{
+    content: "//";
 }
 nav a:hover{
     color: #E4F5FF;
@@ -124,123 +134,55 @@ pre{
     color: #E4F5FF;
     font-size: 14px;
 }
-.person1{
-    background-image: url("../images/persons/Rectangle\ 1.png");
+.all{
     filter: grayscale(100%);
     width: 240px;
     height: 310px;
     float: left;
     margin: 0 15px;
+}
+.person1{
+    background-image: url("../images/persons/Rectangle\ 1.png");
 }
 .person2{
     background-image: url("../images/persons/Rectangle\ 2.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person3{
     background-image: url("../images/persons/Rectangle\ 3.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person4{
     background-image: url("../images/persons/Rectangle\ 4.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person5{
     background-image: url("../images/persons/Rectangle\ 5.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person6{
     background-image: url("../images/persons/Rectangle\ 6.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person7{
     background-image: url("../images/persons/Rectangle\ 7.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person8{
     background-image: url("../images/persons/Rectangle\ 8.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person9{
     background-image: url("../images/persons/Rectangle\ 9.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person10{
     background-image: url("../images/persons/Rectangle\ 10.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person11{
     background-image: url("../images/persons/Rectangle\ 11.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person12{
     background-image: url("../images/persons/Rectangle\ 12.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person13{
     background-image: url("../images/persons/Rectangle\ 13.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person14{
     background-image: url("../images/persons/Rectangle\ 14.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
 .person15{
     background-image: url("../images/persons/Rectangle\ 15.png");
-    filter: grayscale(100%);
-    width: 240px;
-    height: 310px;
-    float: left;
-    margin: 0 15px;
 }
