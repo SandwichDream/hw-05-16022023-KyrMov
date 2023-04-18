@@ -83,7 +83,7 @@ section div.left{
 }
 section div.left div {
     width: 714px;
-    background-image: url(../images/Vector1.png);
+    background-image: url("../images/Vector1.png");
     background-size: 46px;
     padding-right: 236px;
 }
@@ -111,6 +111,10 @@ nav a:hover{
     color: #E4F5FF;
     text-decoration: underline;
     margin: 0 20px;
+}
+.persons{
+    width: 1380px;
+    margin: 0 auto;
 }
 .persons h1{
     color: #E4F5FF;
