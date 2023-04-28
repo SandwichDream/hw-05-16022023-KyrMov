@@ -44,11 +44,13 @@ header ul.right{
 li{
     display: inline;
 }
-header ul li:not(:last-of-type){
+header ul li:not(:last-of-type) span{
     padding-right: 30px;
     background-image: url("../images/Vector1.png");
+    background-repeat: no-repeat;
 }
 header ul.right a{
+    padding-right: 5px;
     color: #FBFCFF;
     text-decoration: none;
     background-color: #242527;
@@ -81,11 +83,12 @@ section div.left{
     margin-top: 280px;
     float: left;
 }
-section div.left div {
+section div.left div span {
     width: 714px;
     background-image: url("../images/Vector1.png");
     background-size: 46px;
     padding-right: 236px;
+    background-repeat: repeat-x;
 }
 section div.left div h1{
     background-color: #242527;
